@@ -1,0 +1,8 @@
+services:
+  _defaults:
+    autowire: true
+    public: false
+
+  De\Swebhosting\PaymentAdminOnly\Core\Installer:
+    class: De\Swebhosting\PaymentAdminOnly\Core\Installer
+    public: true

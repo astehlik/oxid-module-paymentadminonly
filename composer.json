@@ -1,0 +1,16 @@
+{
+	"name": "de-swebhosting-oxid/module-paymentadminonly",
+	"description": "This module allows the creation of payment methods that can only be used by admins.",
+	"type": "oxideshop-module",
+	"license": "GPL-3.0-or-later",
+	"autoload": {
+		"psr-4": {
+			"De\\Swebhosting\\PaymentAdminOnly\\": "./src/"
+		}
+	},
+	"extra": {
+		"oxideshop": {
+			"target-directory": "swh/paymentadminonly"
+		}
+	}
+}
